@@ -1,0 +1,24 @@
+h1, h3 {
+    font-family: "Playfair Display";
+    font-size: 16;
+}
+
+p {
+    font-family: "Roboto";
+}
+
+.blockquote {
+    font-family: "Bitter";
+}
+
+figcaption {
+    font-family: "Roboto";
+}
+
+h2, ul {
+    font-family: "Roboto";
+}
+
+.strengths {
+    font-family: "Bitter";
+}
