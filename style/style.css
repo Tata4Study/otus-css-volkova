@@ -11,6 +11,17 @@
 
 @font-face {
     font-family: "Roboto";
+    src: local("Roboto-Regular"),
+    local("RobotoRegular"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.svg") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
     src: local("Roboto-Bold"),
     local("RobotoBold"),
     url("../fonts/Roboto-Bold.woff2") format("woff2"),
@@ -45,22 +56,50 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 h1, h3 {
     font-family: "Playfair Display", serif;
+    font-size: 86px;
 }
 
 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    font-size: 20px;
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.jobs {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .blockquote {
     font-family: "Bitter", serif;
+    font-size: 32px;
+}
+
+.biography {
+    font-family: "Bitter", serif;
+    font-size: 26px;
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .strengths {
     font-family: "Bitter", serif;
+    font-size: 34px;
 }
