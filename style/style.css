@@ -33,11 +33,11 @@
 
 @font-face {
     font-family: "Playfair Display";
-    src: local("PlayfairDisplay-Regular"),
-        local("PlayfairDisplay Regular"),
-        url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
-        url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
-        url("../fonts/PlayfairDisplay-Regular.svg") format("svg");
+    src: local("PlayfairDisplay-Medium"),
+        local("PlayfairDisplay Medium"),
+        url("../fonts/PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("../fonts/PlayfairDisplay-Medium.woff") format("woff"),
+        url("../fonts/PlayfairDisplay-Medium.svg") format("svg");
     font-style: normal;
     font-weight: 500;
 }
@@ -62,7 +62,7 @@ body {
 
 h1, h3 {
     font-family: "Playfair Display", serif;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 86px;
 }
 
