@@ -72,10 +72,25 @@ body {
    background-image: url("../images/img-hero.jpg"); 
 }
 
-.center {
+.header-center {
     max-width: 1065px;
     margin: 0 auto;
+    text-align: center;
 } 
+
+.menu {
+    background-color: blue;
+position: relative;
+}
+
+.menu-dropdown {
+background-color: orange;
+position: absolute;
+z-index: 100;
+left: 35%;
+right: 35%;
+display: none;
+}
 
 .header-box {
    background-color: white;
