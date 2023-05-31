@@ -64,16 +64,18 @@ body {
     font-size: 16px;
     line-height: 1.2;
     background-color: white;
+    /*padding-right: 20px;*/
 }
 
 .hero-section {
    height: 630px; 
    position: relative;
-   background-image: url("../images/img-hero.jpg"); 
-}
+   background-image: url("../images/img-hero.jpg");
+   background-repeat: no-repeat; 
+}   
 
 .header-center {
-   max-width: 1065px;
+   max-width: 73.8%;
     margin: 0 auto;
     text-align: center; 
 } 
@@ -101,8 +103,6 @@ body {
 .button-menu:hover  .menu-dropdown {
     display: block;
 }
-
-
 
 .header-box {
    background-color: white;
