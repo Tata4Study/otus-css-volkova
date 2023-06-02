@@ -67,17 +67,10 @@ body {
     /*padding-right: 20px;*/
 }
 
-.hero-section {
-   height: 630px; 
-   position: relative;
-   background-image: url("../images/img-hero.jpg");
-   background-repeat: no-repeat; 
-}   
-
 .header-center {
-   max-width: 73.8%;
+  max-width: 100%;
     margin: 0 auto;
-    text-align: center; 
+   text-align: center;
 } 
 
 .menu {
@@ -100,18 +93,46 @@ body {
     display: none;
 }
 
+.links-for-sections {
+    list-style-type: none;
+}
+
+.menu-link {
+    display: inline-block;
+    background-color: brown;
+}
+
 .button-menu:hover  .menu-dropdown {
     display: block;
 }
 
+.hero-section {
+   max-width: 1650px;
+   max-height: 630px;
+
+   position: relative;
+   background-image: url("../images/img-hero.jpg");
+   background-repeat: no-repeat; 
+   background-position: center;
+   background-size: cover;
+   margin-left: 13%;
+   margin-right: 14%;
+ }   
+
+ .img-hero {
+   max-width: 100%;
+    height: auto;
+ }
+
 .header-box {
-   background-color: white;
-   width: 56%;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
+    background-color: white;
+    min-width: 56.3%;
+    min-height: 57.1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
 
 h1, h3 {
     font-family: "Playfair Display", serif;
@@ -121,7 +142,7 @@ h1, h3 {
 
 .header-title {
     /*margin: 110px 20px 14px 20px;*/
-    margin: 18.3% 3.33% 2.33% 3.33%
+    margin: 18.3% 3.33% 2.33% 3.33%;
 }
 
 h2 {
