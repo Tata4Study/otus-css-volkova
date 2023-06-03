@@ -67,10 +67,10 @@ body {
 }
 
 .header-center {
-  max-width: 100%;
+    max-width: 100%;
     margin: 0 auto;
-   text-align: center;
-   background-color: blueviolet;
+    text-align: center;
+    background-color: blueviolet;
 } 
 
 .menu {
@@ -113,10 +113,11 @@ body {
     background-image: url("../images/img-hero.jpg");
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: cover;
-    margin-left: 13%;
-    margin-right: 14%;
- }  */ 
+    background-size: contain;
+    max-width: 100%;
+    height: 630px;
+ } использую для установки картинки фоном, размеры совпадают, но при сжатии появляется горизонтальный скролл:((  */
+
 
 .hero-section {
     position: relative;
@@ -124,18 +125,20 @@ body {
     height: 630px;
     background-color: white;
     max-width: 100%;
-}
+}   /*использую, если картинку не ставить фоном, скролл отсутствует, но размеры при увеличении масштаба "плывут"*/
+    
 
 /*.div-for-img-hero{
-    position: relative;
+    position: absolute;
     background-color: yellow;
     background-image: url("../images/img-hero.jpg");
-   background-repeat: no-repeat; 
-   background-position: center;
-   background-size: cover;
-   max-width: 100%;
-   margin: 0 auto;
-} */
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    margin-left: 13%;
+    margin-right: 13%;
+} устанавливала контейнер для обертки картинки (только картинки .img-hero и вместе с .hero-box), появляется горизонтальный скролл и меняются размеры .hero-box*/
 
 .img-hero {
     position: absolute;
