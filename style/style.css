@@ -125,20 +125,22 @@ body {
     height: 630px;
     background-color: white;
     max-width: 100%;
-}   /*использую, если картинку не ставить фоном, скролл отсутствует, но размеры при увеличении масштаба "плывут"*/
+}   /*использую, если картинку не ставить фоном в этот блок, скролл отсутствует, но размеры при увеличении масштаба "плывут"*/
     
 
-/*.div-for-img-hero{
+.div-for-img-hero{
     position: absolute;
-    background-color: yellow;
+    /*background-color: yellow;*/
     background-image: url("../images/img-hero.jpg");
     background-repeat: no-repeat; 
     background-position: center;
     background-size: contain;
     margin: 0 auto;
-    margin-left: 13%;
-    margin-right: 13%;
-} устанавливала контейнер для обертки картинки (только картинки .img-hero и вместе с .hero-box), появляется горизонтальный скролл и меняются размеры .hero-box*/
+    height: 630px;
+    max-width: 100%;
+    left: 13%;
+    right: 13%;
+} /*устанавливала контейнер для обертки картинки (только картинки .img-hero и вместе с .hero-box), появляется горизонтальный скролл и меняются размеры .hero-box*/
 
 .img-hero {
     position: absolute;
@@ -152,8 +154,10 @@ body {
 .header-box {
     background-color: white;
     margin: 0 auto;
-    height: 56%;
-    width: 30%;
+    max-height: 57%;
+    height: 360px;
+    max-width: 35%;
+    width: 47%;
     position: absolute;
     top: 50%;
     left: 50%;
