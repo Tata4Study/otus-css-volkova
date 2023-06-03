@@ -63,7 +63,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    background-color: green;
     /*padding-right: 20px;*/
 }
 
@@ -111,22 +110,22 @@ body {
     position: relative;
     background-color: red;
     margin: 0 auto;
-   background-image: url("../images/img-hero.jpg");
-   background-repeat: no-repeat; 
-   background-position: center;
-   background-size: cover;
-   margin-left: 13%;
-   margin-right: 14%;
+    background-image: url("../images/img-hero.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    margin-left: 13%;
+    margin-right: 14%;
  }  */ 
+
 .hero-section {
     position: relative;
     margin: 0 auto;
-    min-height: 630px;
-    height: auto;
-    background-color: brown;
+    height: 630px;
+    background-color: white;
     max-width: 100%;
-      
 }
+
 /*.div-for-img-hero{
     position: relative;
     background-color: yellow;
@@ -136,21 +135,22 @@ body {
    background-size: cover;
    max-width: 100%;
    margin: 0 auto;
-}*/
+} */
 
 .img-hero {
     position: absolute;
     left: 13%;
     right: 14%;
-   max-width: 74%;
+    width: 74%;
     height: 630px;
     margin: 0 auto;
  }
 
 .header-box {
     background-color: white;
-    max-width: 56.3%;
- 
+    margin: 0 auto;
+    height: 56%;
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
