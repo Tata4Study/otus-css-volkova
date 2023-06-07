@@ -134,7 +134,7 @@ body {
     background-image: url("../images/img-hero.jpg");
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
     height: 630px;
     max-width: 100%;
