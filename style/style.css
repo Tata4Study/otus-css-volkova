@@ -190,7 +190,7 @@ h2 {
     margin-bottom: 18%;
 }
 
-.jobs {
+.jobs, .span-jobs {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -278,3 +278,7 @@ span {
     color: #0d0d0d;
 }
 
+.span-jobs::before {
+    content: " / ";
+    color: #0d0d0d;
+}
