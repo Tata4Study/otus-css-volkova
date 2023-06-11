@@ -74,15 +74,24 @@ body {
 } 
 
 .menu {
-   /* background-color: white;*/
     position: relative;
+    height: 137px;
 }
 
-.button-menu {
-  /*  background-color: white;*/
+/*.menu-wrapper {
+    background-color: aquamarine;
+}*/
+/*.button-menu {
+    background-color: white;
     border: none;
     height: 137px;
     background-color: #E5E5E5;
+}*/
+
+.menu-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menu-dropdown {
@@ -91,6 +100,7 @@ body {
     z-index: 100;
     left: 40%;
     right: 40%;
+    bottom: 1px;
     display: none;
 }
 
@@ -101,9 +111,12 @@ body {
 .menu-link {
     display: inline-block;
     background-color: brown;
+    width: 2em;
+    height: 2em;
+    padding-top: 1em;
 }
 
-.button-menu:hover  .menu-dropdown {
+.menu-wrapper:hover  .menu-dropdown {
     display: block;
 }
 
