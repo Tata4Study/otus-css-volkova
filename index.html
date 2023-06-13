@@ -11,24 +11,38 @@
 <body>
     <header class="header-center">
         <nav class="menu">
-            <button type="button" class="button-menu">
-                <img src="images/Line-1.png" alt="first_line_of_menu"><br>
-                <img src="images/Line-2.png" alt="second_line_of_menu"><br>
-                <img src="images/Line-3.png" alt="third_line_of_menu"><br>
-               
-                <ul class="menu-dropdown links-for-sections">
+          
+                <div class="menu-wrapper">
+                    <img class="menu-img" src="images/Menu.svg" alt="picture-of-menu">
+                    <div class="menu-dropdown links-for-sections">
+                        <a class="menu-link" href="#">B</a>
+                        <a class="menu-link" href="#">D</a>
+                        <a class="menu-link" href="#">T</a>
+                        <a class="menu-link" href="#">S</a>
+                    </div>
+                </div>
+        </nav>    
+
+                <!-- <div class="menu-dropdown-wrapper">
+                <button type="button" class="button-menu">-->
+
+                <!--<div class="button-wrapper"><button type="button" class="button-menu">
+                    <img src="images/Line-1.png" alt="first_line_of_menu"><br>
+                    <img src="images/Line-2.png" alt="second_line_of_menu"><br>
+                    <img src="images/Line-3.png" alt="third_line_of_menu"><br>
+                    </button>-->
+                <!--<ul class="menu-dropdown links-for-sections">
                     <li class="menu-link"><a class="a-menu" href="#">B</a></li>
                     <li class="menu-link"><a class="a-menu" href="#">D</a></li>
                     <li class="menu-link"><a class="a-menu" href="#">T</a></li>
                     <li class="menu-link"><a class="a-menu" href="#">S</a></li>
-                </ul>
-            </button> 
-                
+                </ul>-->
+            
                 <!--<button type="button"><a href="#"><img src="images/line 1.svg" alt="first line of menu"></a><br>
                 <a href="#"><img src="images/line 2.svg" alt="second line of menu"></a><br>
                 <a href="#"><img src="images/line 3.svg" alt="third line of menu"></a>
                 </button> -->  
-        </nav>
+        
 
         <section class="hero-section">
             <div class="div-for-img-hero"><!--<img class="img-hero" src="images/img-hero.jpg"  alt="картинка в шапке страницы"> -->
@@ -39,17 +53,22 @@
             </div>
         </section>
     </header>
-    <!--<section>
-        <h2>Biography</h2>
-        <img src="images/img-biography.jpg" alt="picture for biography section">
-        <article>
-            <h3>Katya Mills</h3>
-            <p class="jobs">Art Director<br>Scenography / Styling / Creative Photography / Design</p>
-            <img src="images/Rectangle.png" alt="little black rectangle">
-            <blockquote><p class="blockquote biography">“The more I deal with the work<br>as something that is my own,<br>as something that is personal,<br>the more successful it is.”</p></blockquote>
-        </article>
-</section>
-<section>
+    <section class="biography-section">
+        <div class="biography-section-wrapper">
+            <h2 class="biography-title">Biography</h2>
+            <div class="biography-img-wrapper">
+                <img class="biography-img" src="images/img-biography.jpg" alt="picture for biography section">
+            </div>
+            <article class="biography-article">
+                <h3 class="biography-article-title">Katya<br> Mills</h3>
+                <div class="jobs biography-article-jobs">Art Director<br>Scenography<span class="span-jobs">Styling</span><span class="span-jobs">Creative Photography</span><span class="span-jobs">Design</span></div>
+                <div class="img-rectangle"></div>
+                <!--<img class="biography-article-img" src="images/Rectangle.png" alt="little black rectangle">-->
+                <blockquote class="blockquote biography biography-article-blockquote">“The more I deal with the work<br>as something that is my own,<br>as something that is personal,<br>the more successful it is.”</blockquote>
+            </article>
+        </div>     
+    </section>
+<!--<section>
     <h2>Designers</h2>
     <figure>
         <img src="images/img-designers-jess_wonder.jpg" alt="girl in the hat">

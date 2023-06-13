@@ -64,32 +64,43 @@ body {
     font-size: 16px;
     line-height: 1.2;
     /*padding-right: 20px;*/
+    background-color: #E5E5E5;
 }
 
 .header-center {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: blueviolet;
 } 
 
 .menu {
-    background-color: white;
     position: relative;
-}
-
-.button-menu {
-    background-color: white;
-    border: none;
     height: 137px;
 }
 
-.menu-dropdown {
+/*.menu-wrapper {
+    background-color: aquamarine;
+}*/
+/*.button-menu {
     background-color: white;
+    border: none;
+    height: 137px;
+    background-color: #E5E5E5;
+}*/
+
+.menu-img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-dropdown {
+   /* background-color: white;*/
     position: absolute;
     z-index: 100;
     left: 40%;
     right: 40%;
+    bottom: 1px;
     display: none;
 }
 
@@ -100,9 +111,12 @@ body {
 .menu-link {
     display: inline-block;
     background-color: brown;
+    width: 2em;
+    height: 2em;
+    padding-top: 1em;
 }
 
-.button-menu:hover  .menu-dropdown {
+.menu-wrapper:hover  .menu-dropdown {
     display: block;
 }
 
@@ -123,8 +137,9 @@ body {
     position: relative;
     margin: 0 auto;
     height: 630px;
-    background-color: white;
+   /* background-color: white;*/
     max-width: 100%;
+    margin-bottom: 10.5%;
 }   /*использую, если картинку не ставить фоном в этот блок, скролл отсутствует, но размеры при увеличении масштаба "плывут"*/
     
 
@@ -152,7 +167,7 @@ body {
  }
 
 .header-box {
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0 auto;
     max-height: 57%;
     height: 360px;
@@ -188,7 +203,7 @@ h2 {
     margin-bottom: 18%;
 }
 
-.jobs {
+.jobs, .span-jobs {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -214,3 +229,81 @@ span {
     font-family: "Bitter", serif;
     font-size: 34px;
 }
+
+.biography-section {
+    max-width: 100%;
+    height: 840px;
+    margin: 0 auto;
+}
+
+.biography-section-wrapper {
+    margin-left: 9.5%;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1.8em;
+}
+
+.biography-title {
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    margin-top: 4.55em;
+    align-self: start;
+}
+.biography-img-wrapper {
+    order: -1;
+    max-width: 47%;
+}
+
+.biography-img {
+    width: 100%;
+    /* order: -1;*/
+}
+
+.biography-article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 41%;
+}
+
+.biography-article-title {
+    /*height: 27%;*/
+    margin-bottom: 5%;
+    line-height: 1.35em;
+    margin-top: 33.55%;
+}
+
+.biography-article-jobs {
+   /*height: 5%;*/
+    margin-bottom: 8%;
+    color: #0d0d0d;
+}
+
+/*.biography-article-img {
+    align-self: start;
+    margin-bottom: 2%;
+}*/
+
+.biography-article-blockquote {
+    padding-top: 4%;
+    color: #0d0d0d;
+}
+
+.img-rectangle::before {
+    content: "_";
+    color: #0d0d0d;
+    font-weight: bold; 
+    font-size: 1.8em; 
+}
+
+.span-jobs::before {
+    content: " / ";
+    color: #0d0d0d;
+}
+
