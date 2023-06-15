@@ -365,6 +365,7 @@ span {
 .testimonials-list-item {
     transform-origin: 0 0;
     transform: rotate(270deg);
+    
 }
 
 .testimonials-item-creativity {
@@ -372,12 +373,12 @@ span {
     /*grid-row: 3/4;*/
 }
 
-.testimonials-item-creativity-2 {
-    /*grid-row: 2/3;*/
-}
-
 .testimonials-item-website {
    /* grid-row: 1/2;  */
    order: -1;
 }
 
+.testimonials-links {
+    text-decoration: none;
+    color: black;
+}
