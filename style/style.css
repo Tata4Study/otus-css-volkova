@@ -383,7 +383,63 @@ span {
     color: black;
 }
 
-.designers-section {
+.designers-section  {
+    margin: 10% auto; 
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.designers-section-title {
+    display: inline-block;
+    transform-origin: 0 0;
+    transform: rotate(270deg) translateX(-100%);
+    margin-left: 72.65%;
+}
+
+.designers-section-content-wrapper {
+    max-width: 100%;
+    height: 100%;
+    margin-top: -1.55%;
+    margin-left: 5%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    overflow-x: auto;
+    background-attachment: scroll; 
+}
+
+.designers-content-item {
+    flex-basis: 23%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.designers-description {
+    margin-top: 7%;
+}
+
+/*Стили для увеличения картинки*/
+
+.designers-content-main {
+    margin-top: -7%;
+}
+
+.designers-img-main {
+    width: 638px;
+}
+
+.designers-description-main {
+    margin-left: 50%;
+}
+
+/* Первый вариант верстки секции Дизайнеры*/
+
+/*.designers-section {
     background-color: #E5E5E5;
     margin: 10% auto; 
     max-width: 97%;
@@ -400,10 +456,11 @@ span {
     width: 99.5%;
     height: 100%; 
     overflow-x: auto;
+    background-attachment: scroll;
     margin-top: -1.7%;
     display: flex;
     gap: 30px;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: stretch;
     flex-wrap: nowrap;
 }
@@ -419,7 +476,7 @@ span {
 
 .designers-img {
     width: 100%;
-   /* height: 83.5%;*/
+    height: 83.5%;
 }
 
 .designers-description {
@@ -428,7 +485,7 @@ span {
 }
 
 .designers-content-main {
-    flex-basis: 46%;
+    width: 46%;
     margin-top: 0;
 }
 
@@ -436,4 +493,4 @@ span {
     margin-left: 49.5%;
     text-align: left; 
     margin-top: -2.5%; 
-}
+}/*
